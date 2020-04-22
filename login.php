@@ -14,7 +14,7 @@ if($u==""&&$p=="")
 if($fet['Email']==$u && $fet['password']==$p)
 {
 echo "<script type='text/javascript'>
-    window.location='homepage.html';
+    window.location='homepage.php';
     </script>";
 }
 else{
